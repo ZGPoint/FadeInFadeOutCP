@@ -36,6 +36,10 @@
 		<data>
 		OErx3/d3uGl2/GeH3C4lvm7ZXg0=
 		</data>
+		<key>iOS.png</key>
+		<data>
+		dGEkVwzKhjhSO7TwPmdksNyOg80=
+		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
@@ -114,6 +118,17 @@
 			<key>hash2</key>
 			<data>
 			KDafNYZgAZ6yGWVdBBgt6J6fXiTsYoqycq49k327nRc=
+			</data>
+		</dict>
+		<key>iOS.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			dGEkVwzKhjhSO7TwPmdksNyOg80=
+			</data>
+			<key>hash2</key>
+			<data>
+			aBiEsxD+vUjZeGSkAq73jTqNDasMaTmCVaF3zOkKQAM=
 			</data>
 		</dict>
 	</dict>
