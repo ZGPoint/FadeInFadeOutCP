@@ -103,7 +103,7 @@ Pod::Spec.new do |spec|
   #
 
   # spec.resource  = "icon.png"
-  spec.resources = "FadeInFadeOutCP/*.png"
+  spec.resources = "Resources/*.png"
 
   # spec.preserve_paths = "FadeInFadeOutCP/**/*.framework"
 
