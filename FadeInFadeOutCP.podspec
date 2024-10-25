@@ -61,7 +61,7 @@ Pod::Spec.new do |spec|
 
   # spec.platform     = :ios
   spec.platform     = :ios, "15.0"
-  spec.ios.deployment_target = '10.0'
+
   #  When using multiple platforms
   # spec.ios.deployment_target = "5.0"
   # spec.osx.deployment_target = "10.7"
@@ -79,9 +79,7 @@ Pod::Spec.new do |spec|
   # spec.source       = { :git => "https://github.com/ZGPoint/FadeInFadeOutCP.git", :tag => "#{spec.version}" }
   spec.source           = { 
       :git => 'https://github.com/ZGPoint/FadeInFadeOutCP.git',  
-      :tag => spec.version.to_s,
-      :submodules => true
-  }
+      :tag => spec.version.to_s}
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
