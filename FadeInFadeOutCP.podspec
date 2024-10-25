@@ -78,7 +78,7 @@ Pod::Spec.new do |spec|
 
   # spec.source       = { :git => "https://github.com/ZGPoint/FadeInFadeOutCP.git", :tag => "#{spec.version}" }
   spec.source           = { 
-      :https => 'https://github.com/ZGPoint/FadeInFadeOutCP.git',  
+      :git => 'https://github.com/ZGPoint/FadeInFadeOutCP.git',  
       :tag => spec.version.to_s}
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
