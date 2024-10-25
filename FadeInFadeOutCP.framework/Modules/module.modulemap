@@ -1,0 +1,11 @@
+framework module FadeInFadeOutCP {
+  umbrella header "FadeInFadeOutCP.h"
+  export *
+
+  module * { export * }
+}
+
+module FadeInFadeOutCP.Swift {
+  header "FadeInFadeOutCP-Swift.h"
+  requires objc
+}
