@@ -76,8 +76,12 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "https://github.com/ZGPoint/FadeInFadeOutCP.git", :tag => "#{spec.version}" }
-
+  # spec.source       = { :git => "https://github.com/ZGPoint/FadeInFadeOutCP.git", :tag => "#{spec.version}" }
+  spec.source           = { 
+      :git => 'https://github.com/ZGPoint/FadeInFadeOutCP.git',  
+      :tag => spec.version.to_s,
+      :submodules => true
+  }
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
