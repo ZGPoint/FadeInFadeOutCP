@@ -18,7 +18,7 @@
 		</data>
 		<key>Modules/FadeInFadeOutCP.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<data>
-		mM9cOfgk2snWFZm4xzq3QuQy03U=
+		HJQ9nCfHgYYlK23MKHG6KWswL9E=
 		</data>
 		<key>Modules/FadeInFadeOutCP.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
@@ -30,7 +30,7 @@
 		</data>
 		<key>Modules/FadeInFadeOutCP.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		pYRF0Gp0letCXAYiPMptWKtKOZs=
+		YLrHlrrXHLkoKziClqNUxze9xkk=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -69,11 +69,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			mM9cOfgk2snWFZm4xzq3QuQy03U=
+			HJQ9nCfHgYYlK23MKHG6KWswL9E=
 			</data>
 			<key>hash2</key>
 			<data>
-			7wBPoaYYiWq3ECpQotVk17wmBfQn77Ngj8HdmpBNpFc=
+			1ehkue+ZFf8+xomXWT9ZgR7eJkF8hIjSru0XMu638zY=
 			</data>
 		</dict>
 		<key>Modules/FadeInFadeOutCP.swiftmodule/arm64-apple-ios.abi.json</key>
@@ -102,11 +102,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			pYRF0Gp0letCXAYiPMptWKtKOZs=
+			YLrHlrrXHLkoKziClqNUxze9xkk=
 			</data>
 			<key>hash2</key>
 			<data>
-			IbZk42HylwRcToGS8FbpqnxJqmI+N1b64qmv5Wun+54=
+			F8pkVbc3ZvRpyy0FJQaE9SPGyH7HVi08kNZSkjiK8rs=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
