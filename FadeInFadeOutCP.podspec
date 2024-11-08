@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "FadeInFadeOutCP"
-  spec.version      = "1.0.5"
+  spec.version      = "1.0.6"
   spec.summary      = "The animation effect of fading in and out."
 
   # This description is used to generate tags and improve search results.
@@ -104,8 +104,7 @@ Pod::Spec.new do |spec|
 
   # spec.resource  = "icon.png"
   spec.resources = "Resources/*.png"
-
-  # spec.preserve_paths = "FadeInFadeOutCP/**/*.framework"
+  spec.preserve_paths = "FadeInFadeOutCP/*.framework"
 
 
   # ――― Project Linking ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
