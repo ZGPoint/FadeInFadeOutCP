@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "FadeInFadeOutCP"
-  spec.version      = "1.0.6"
+  spec.version      = "1.0.7"
   spec.summary      = "The animation effect of fading in and out."
 
   # This description is used to generate tags and improve search results.
@@ -31,7 +31,7 @@ Pod::Spec.new do |spec|
   spec.homepage     = "https://github.com/ZGPoint/FadeInFadeOutCP"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
-
+  spec.static_framework = true
   # ―――  Spec License  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
   #  Licensing your code is important. See https://choosealicense.com for more info.
@@ -86,7 +86,7 @@ Pod::Spec.new do |spec|
   #  For header files it will include any header in the folder.
   #  Not including the public_header_files will make all headers public.
   #
-  # spec.source_files = "FadeInFadeOutCP/**/*.{h,m,swift}"
+  spec.source_files = "FadeInFadeOutCP/**"
 
   # spec.source_files  = "Classes", "Classes/**/*.{h,m}"
   # spec.exclude_files = "Classes/Exclude"
@@ -104,7 +104,7 @@ Pod::Spec.new do |spec|
 
   # spec.resource  = "icon.png"
   spec.resources = "Resources/*.png"
-  spec.preserve_paths = "FadeInFadeOutCP/*.framework"
+  spec.preserve_paths = "FadeInFadeOutCP/**/*.framework"
 
 
   # ――― Project Linking ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
