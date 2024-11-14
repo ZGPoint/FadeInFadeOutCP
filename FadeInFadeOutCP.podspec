@@ -87,7 +87,7 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
   # spec.source_files = "FadeInFadeOutCP/FadeInFadeOutCP.framework/Headers/*.{h,m}"
-  spec.vendored_frameworks = 'FadeInFadeOutCP.framework'
+  # spec.vendored_frameworks = 'FadeInFadeOutCP.framework'
 
   # spec.source_files  = "Classes", "Classes/**/*.{h,m}"
   # spec.exclude_files = "Classes/Exclude"
@@ -105,7 +105,7 @@ Pod::Spec.new do |spec|
 
   # spec.resource  = "icon.png"
   spec.resources = "Resources/*.png"
-  # spec.preserve_paths = "FadeInFadeOutCP/FadeInFadeOutCP.framework"
+  spec.preserve_paths = "FadeInFadeOutCP.framework"
 
 
   # ――― Project Linking ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
