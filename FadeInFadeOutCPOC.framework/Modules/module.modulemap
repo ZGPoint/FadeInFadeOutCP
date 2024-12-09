@@ -1,0 +1,6 @@
+framework module FadeInFadeOutCPOC {
+  umbrella header "FadeInFadeOutCPOC.h"
+  export *
+
+  module * { export * }
+}
