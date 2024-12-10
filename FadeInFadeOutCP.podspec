@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "FadeInFadeOutCP"
-  spec.version      = "1.0.12"
+  spec.version      = "1.0.13"
   spec.summary      = "The animation effect of fading in and out."
 
   # This description is used to generate tags and improve search results.
@@ -87,7 +87,7 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
   spec.source_files = "FadeInFadeOutCP.framework/Headers/*.{swift,h,m}"
-  spec.vendored_frameworks = 'FadeInFadeOutCP.framework'
+  # spec.vendored_frameworks = 'FadeInFadeOutCP.framework'
 
   # spec.source_files  = "Classes", "Classes/**/*.{h,m}"
   # spec.exclude_files = "Classes/Exclude"
